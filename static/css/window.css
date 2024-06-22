@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* reset */
+html{color:#000;background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h6,input,button,textarea,p,blockquote{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial;}
+img{border:none;}
+em{font-style:normal;font-weight:normal;}
+ul,li,ol{list-style:none;}
+table {border-collapse:collapse;border-spacing:0;}
+h1{font-size:18px;}
+h2{font-size:16px;}
+h3{font-size:14px;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+button,input,select,textarea{font-size:100%;}
+.cl{ clear:both;}
+
+/* link */
+#window a {color:#cf1e1e;text-decoration:underline;}
+#window a:hover {color:#cf1e1e;text-decoration:underline;}
+
+/* window */
+#window{ width:560px; overflow:hidden; text-align:center; padding-bottom:13px;}
+#window_t{ width:560px; height:29px; background:#7c7e8b;}
+#window_t span{ float:left; line-height:29px; padding-left:10px; font-size:12px; font-weight:bold; color:#fff;}
+#window_t a{ width:14px; height:14px; background:url(../images/closejs.gif) no-repeat; display:block; float:right; margin:5px 10px 0 0; _display:inline;}
+#window_c{ width:540px; overflow:hidden; padding:0 10px; background:#fff; position:relative;}
+.comulns{ width:540px; overflow:hidden; text-align:left; padding:10px 0; border-bottom:#999 dashed 1px;}
+.comulns h6{ font-size:14px; color:#3f3f3f; line-height:30px;}
+.comulns p{ color:#6d6d6d; padding-left:25px; line-height:22px;}
+#comulns_czfs p{ background:url(../images/comulnspbg.gif) no-repeat 23px 10px; padding-left:32px;}
+.comulns2{ width:270px; float:left; overflow:hidden;}
+.comulns2 p{ line-height:24px; text-align:center; padding:15px 0 5px 0; color:#6d6d6d;}
+#button_fanhui{ width:87px; height:24px; display:block; float:left; background:url(../images/comulnbutton_fanhui.gif) no-repeat; margin:5px 0 0 220px; _display:inline;}
+.comulns p strong{ color:#3f3f3f;}
+
+
+* html { ie6PngRepair:true; }/*设置主题是否针对IE6应用PNS透明与背景定位修复*/
+.ui_overlay div { background:#000; filter:alpha(opacity=40); opacity:0.1; }/*设置遮罩颜色与透明度*/
+.ui_dialog{ width:560px; height:440px;  background:#ccc; position:relative; border:#171613 solid 1px;}
+.ui_dialog_main { background:#FFF url(../images/window_tipsbg.gif) no-repeat; width:560px;  height:440px; position:absolute; }
+.ui_title { width:100%; height:30px; font-size:12px; cursor:move;background-color:#7C7E8B;}
+.ui_title_text { height:30px; line-height:30px; padding:0 30px 0 15px; _padding:0 0 0 15px;  color:#FFF; font-weight:700; text-shadow:0 1px 5px #000; cursor:move;}
+.ui_content.ui_iframe { background:url(../images/loading.gif) no-repeat center center; }/*iframe加载的loading动画(IE不支持)*/
+/*
+		r0d0:左上角, r0d1:上边, r0d2:右上角, r1d2:右边, r2d2:右下角, r2d1:下边, r2d0:左下角, r1d0:左边
+*/
+.r1d1{ height:122px; overflow:hidden;}
+.r0d0, .r0d2, .r2d0, .r2d2, .r0d1, .r2d1, .ui_title_icon, .ui_close, .ui_resize {  }
+.r0d0 { width:14px; height:34px; background-position: 0 0; }
+.r0d2 { width:14px; height:34px; background-position: -14px 0; }
+.r2d0 { width:14px; height:14px; background-position: 0 -34px; }
+.r2d2 { width:14px; height:14px; background-position: -14px -34px; }
+.ui_title_icon { line-height:30px; position:absolute; left:10px; _left:0px; top:9px; background-position:0 -109px; }
+.ui_close { top:5px; right:12px; _right:12px; width:20px; height:20px; background: url(../images/closejs.gif) no-repeat; _font-size:0; _line-height:0; text-indent:-9999em; }
+* html .ui_close div { cursor:pointer; }/*IE6修复png的时候会插入一个div导致原有的a标签失去了应有的鼠标样式*/
+.ui_close:hover {}
+.ui_resize { width:10px; height:10px; background-position:right bottom; }
+.r0d1, .r2d1 { background-repeat:repeat-x; }
+.r0d1 {  }
+.r2d1 {  }
+.r1d0, .r1d2 { }
+.r1d0 {  }
+.r1d2 {}
+.ui_btns { background-color:#F6F6F6; font-size:12px; -moz-border-radius:4px; -webkit-border-radius: 4px; border-radius:4px; }
+.ui_btns span, .ui_btns button { background-color:transparent; background-image:url(../images/btns.png); background-repeat:no-repeat; }
+.ui_btns span { padding:0 0 0 6px; overflow:hidden; }
+.ui_btns button { height:31px; line-height:31px; padding:0 12px 0 6px; max-width:200px;  border:none 0; font-size:12px; }
+.ui_yes { background-position:left -124px; }
+.ui_yes:hover, .ui_yes.ui_hover { background-position:left -155px; }
+.ui_yes button { color:#f0f0f0; text-shadow:0 -1px 0 #000; background-position:right 0; }
+.ui_yes:hover button, .ui_yes.ui_hover button { background-position:right -31px; }
+.ui_no { background-position:left -186px; }
+.ui_no:hover { background-position:left -217px; }
+.ui_no button { color:#666; text-shadow:0 1px 0 #FFF; background-position:right -62px; }
+.ui_no:hover button { background-position:right -93px; }
+html:hover .ui_btns button:focus { outline:none 0; }
+
+/*all*/
+#window_tips{ width:404px; height:152px; overflow:hidden; background:#f2f2f2; position:relative;}
+#window_tips_c{ width:404px; height:152px; background:url(../images/window_tipsbg.gif) no-repeat; position:absolute; left:-2px; top:-2px;}
+#window_tips a{ position:relative;}
+#window_tips_t{ width:404px; height:30px; text-align:left;cursor:move;}
+#window_tips_t span{ float:left; font-size:14px; color:#fff; line-height:30px; font-weight:bold; padding-left:15px;}
+#window_tips_t a{ width:9px; height:10px; background:url(../images/window_tips_close.gif) no-repeat; display:block; float:right; margin:11px 18px 0 0; _display:inline;}
+.window_tips_box{ overflow:hidden; padding:3px 0 0 0;}
+
+.window_tips_box p{ line-height:20px; color:#444;}
+.window_tips_box p.p1{ text-align:center; padding-bottom:4px;}
+.window_tips_box #p_1{ padding:4px 0 0 0;}
+.window_tips_box #p_2{ padding:4px 0 0 0;}
+.window_tips_box #p_3{ padding:22px 0 0 0;}
+.window_tips_box #p_1 img{ margin:3px 0 0 0;}
+.window_tips_box #p_2 img{ margin:4px 3px 0 0;}
+.window_tips_box p.p1 a,.window_tips_box p.p1 a:hover,.window_tips_box p.p2 a,.window_tips_box p.p2 a:hover{ color:#f30; text-decoration:underline;}
+.window_tips_box p.p2{ text-align:left; padding-left:10px;}
+.window_tips_box .red_st{ font-weight:bold; color:#f30;}
+#jxtx,#qjwdjs{ width:92px; height:24px; display:block; background:url(../images/window_tips_back.gif) no-repeat left center; float:left; margin:8px 0 0 70px; _display:inline;}
+#qjwdjs{ background:url(../images/window_tips_js.gif) no-repeat left center;}
+#null{ width:412px; height:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

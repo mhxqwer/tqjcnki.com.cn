@@ -1,0 +1,140 @@
+* { padding: 0px; margin: 0px; }
+body { font-family:"宋体"; font-size:12px; color:#000; }
+img { border:none; }
+strong { font-style:normal }
+ul,
+li,
+ol { list-style-type: none; }
+table { border-collapse: collapse; border-spacing: 0 }
+input::-moz-focus-inner {
+border:0;
+padding:0;
+margin:0;
+}
+input::-ms-clear {
+display:none;
+}
+input[type="button"] { cursor:pointer; }
+input,
+textarea { outline:none; }
+/*input { border:0; background-color:transparent;}*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom: 1; }
+a { text-decoration:none; outline:none; }
+a:hover { text-decoration:none; color:#FF7A45; }
+.left { float:left; }
+.right { float:right; }
+.positionR { position:relative; }
+.positionA { position:absolute; }
+.overflowHidden { overflow:hidden; }
+.positionR { position:relative; }
+.textAlignC { text-align:center; }
+.textAlignR { text-align:right; }
+.displayB { display:block; }
+.displayN { display:none; }
+.fontWeightN { font-weight:normal; }
+.fontSize14px { font-size:14px; }
+.fontSize12px { font-size:12px; }
+i,
+b { font-weight:normal; font-style:normal; }
+.marginTop10px { margin-top:10px; }
+.paddingBtm20px { padding-bottom:20px; }
+.hide-scroll-bar { overflow:hidden; }
+#header948_b { width: 948px; height: 89px; overflow:visible; }
+#header948_b #search { width: 102px; float: left; padding: 0; overflow: hidden; margin: 0; }
+
+#huiyiheaderbot { height:65px; }
+.headerbot { height: 65px; overflow:visible; padding-top:25px; /*width: 980px; background: transparent url("../images/cnkiindexserchbj.gif") no-repeat scroll 0% 0%;*/ }
+.head-wrap { width:624px; margin-left:30px; float:left; _display:inline; }
+.head-wrap .yj-logo { background-image: url(../images/yj-logo.png); background-repeat: no-repeat; float: left; height: 39px; width: 54px; padding-right:14px; }
+.head-wrap .cp-logo {
+        background-image: url(../images/cp-logo.png);
+        background-repeat: no-repeat;
+        float: left;
+        height: 39px;
+        width: 54px;
+        padding-right: 14px;
+    }
+.ad-right { float:left; margin-top: -10px;  margin-left: 15px;}
+.ad-right-default { float:left; margin-top: -10px;  margin-left: 35px; _display:inline;}
+.head-fen .search-item .choose .xiugai { margin-bottom:10px; z-index:1; }
+.head-fen .search-item .choose .selectwrap { width:556px; float:left; position:relative; }
+    .head-fen .search-item .choose .selectwrap .select {
+        background-color: white;
+        width: 452px;
+        height: 36px;
+        border: 1px solid #008AFF;
+        float: left;
+        position: relative;
+    }
+    .head-fen .search-item .choose .selectwrap .select .cp-search {
+        width: 21px;
+        height: 21px;
+        padding-left: 8px;
+        padding-top: 8px;
+        float: left;
+    }
+.head-fen .search-item .choose .selectwrap .select input { width:415px; padding-left:6px; loat:left; border:none 0; height:36px; line-height:36px; font-size:14px; }
+.head-fen .search-item .choose .selectwrap .select .kj { float:left; border:none 0; width:490px; padding-left:6px; height:36px; line-height:36px; font-size:14px; }
+.head-fen .search-item .choose .selectwrap .select .sweep { width:12px; height:12px; background:url(../images/cancel.jpg) no-repeat; top:12px; right:10px; }
+.head-fen .search-item .choose .selectwrap .searchwrap { position:absolute; top:0; right:0; width:102px; height:38px; line-height:38px; margin-left:0; }
+.head-fen .search-item .choose .selectwrap .searchwrap .search { float: left; width:102px; text-align:center; height:38px; line-height:38px; background:#008AFF; color:#ffffff; font-family:"微软雅黑"; font-size:16px; text-decoration:none; margin:0; }
+.head-fen .search-item .choose .selectwrap .searchwrap .search:hover { background:#1A72E5; }
+.head-fen .search-item .choose .selectwrap .searchwrap .gj { font-size:12px; color:#707070; right:0px; bottom:3px; height:13px; line-height:13px; }
+.head-fen .headfen-right { padding-top:55px; position:relative; }
+.head-fen .headfen-right a { float:left; padding:0 8px; color:#4d4d4d; }
+.head-fen .headfen-right i { color:#E4E3E3; }
+
+.head-fen .headfen-right ul { display:none; right:-16px; top:78px; *top:75px;
+width:81px; background: #ffffff; z-index:100; border:1px solid #C8C8C8; }
+.head-fen .headfen-right ul li { text-align:center; height:30px; line-height:30px; border-bottom:1px solid #F7F7F7; cursor:pointer; color:#4D4D4D; font-size:12px; }
+.head-fen .headfen-right ul .nborder { border:none; }
+.head-fen .search-item .choose .selectwrap .select{
+    width: 554px;
+}
+.askBox{
+    position: absolute;
+    right: 3px;
+    top: 7px;
+    padding: 2px 10px;
+    border-left: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+.askBox span{
+    color: #008AFF;
+    font-size: 14px;
+    float: left;
+    margin-left: 5px;
+    
+}
+
+.askBox .askBoxImgHover{
+    display: none;
+}
+.askBox:hover{
+    background-color: #008AFF;
+    color: white;
+    top: 3px;
+    border-left: 0;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+.askBox:hover .askBoxImg{
+    display: none;
+}
+.askBox:hover .askBoxImgHover{
+    display: block;
+}
+.askBox:hover  span{
+    color: white;
+}
+.askBox img{
+    display: block;
+    float: left;
+}
+.searchBtn{
+    position: absolute;
+    top: 10px;
+    right: 86px;
+    cursor: pointer;
+}

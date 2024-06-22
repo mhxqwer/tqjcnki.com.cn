@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-attachment:fixed}
+*{margin:0; padding:0;}
+.float1{width:137px; height:200px; position:fixed; right:15px; bottom:15px;_position:absolute;_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight-15+"px"); }
+.float1 a, .float1 img{display:block;}
+.float1 .zxzx{width:137px; height:45px; background:url(../images/zxzx.png) no-repeat;}
+.float1 .zxzx:hover{background:url(../images/zxzxhover.png) no-repeat;}
+.float1 .close{position:absolute; width:12px; height:12px; right:12px; top:8px; background:url(../images/close1111.png) no-repeat center;}
+.float1 .close:hover{background:url(../images/close1111hover.png) no-repeat center;}
+.float2{width:137px; position:fixed; right:15px; bottom:15px;_position:absolute;_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight-15+"px");}
+.float2 a, .float2 img{display:block;}
+.float2 .fhdb{width:137px; height:52px; background: url(../images/fhdb.png) no-repeat; display:none; margin-top:-8px;}
+.float2 .fhdb:hover{background:url(../images/fhdbhover.png) no-repeat;}
+.float2 .close{position:absolute; width:12px; height:12px; right:12px; top:12px; background:url(../images/close1111.png) no-repeat center;}
+.float2 .close:hover{background:url(../images/close1111hover.png) no-repeat center;}
+.float3{width:137px; position:fixed; right:15px; bottom:15px;_position:absolute;_top: expression(documentElement.scrollTop + documentElement.clientHeight-this.offsetHeight-15+"px");}
+.float3 a, .float3 img{display:block;}
+.float3 .close{position:absolute; width:12px; height:12px; right:12px; top:12px; background:url(../images/close1111.png) no-repeat center;}
+.float3 .close:hover{background:url(../images/close1111hover.png) no-repeat center;}
+.float4{width:137px; height:200px; position:fixed; left:50%; margin-left:346px; top:175px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+175+"px"));}
+.float4 a, .float4 img{display:block;}
+.float4 .close{position:absolute; width:12px; height:12px; right:12px; top:12px; background:url(../images/close1111.png) no-repeat center;}
+.float4 .close:hover{background:url(../images/close1111hover.png) no-repeat center;}

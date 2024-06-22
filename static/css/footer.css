@@ -1,0 +1,177 @@
+﻿.body_div1
+{
+	width: 800px;
+	margin: 0 auto;
+}
+#table_11
+{
+	width:100%;
+	height:49px;	
+}
+#td1
+{
+	width:178px;
+	background-image:url('../images/bq_01.gif');
+}
+#td2
+{
+	width:412px;
+	height:30px;
+	text-align:center;
+	vertical-align:bottom;
+	background-image:url('../images/bq_02.gif');	
+}
+#td2 a
+{
+	color:#000099;
+	text-decoration:none;
+}
+#td2 a:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+#td2 span
+{
+	font-weight:bold;
+	color:#000099;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+#td3
+{
+	width:412px;
+	height:19px;
+	background-image:url('../images/bq_03.gif');	
+}
+#td4
+{
+	width:180px;
+	background-image:url('../images/bq_04.gif');	
+}
+#table_22
+{
+	width:100%;
+	height:60px;
+	background-color:#f3f3f3;	
+}
+
+
+/*********** footer1 ***********/
+
+.footer1_body_div
+{
+	width: 948px;
+	margin: 0 auto;
+}
+#footer1_table
+{
+	width:100%;
+}
+#footer1_td1
+{
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+	background-image:url('../images/bq_02.gif');	
+}
+#footer1_td1 a
+{
+	color:Black;
+	text-decoration:none;
+}
+#footer1_td1 a:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+#footer1_td1 span
+{
+	font-weight:bold;
+	color:Black;
+	padding-left: 2px;
+	padding-right: 3px;
+}
+#footer1_td2
+{
+	text-align:center;
+	line-height:17px;	
+}
+#footer1_td2 a
+{
+	color:Black;
+	text-decoration:none;
+}
+#footer1_td2 a:hover
+{
+	color:red;
+	text-decoration:underline;
+}
+
+/*空间详细页footer*/
+.body_div2
+{
+	width: 936px;
+	margin: 0 auto;
+}
+
+/*指南*/
+.zhinan{ float:left; width:940px; background:#fafafa;  height:100px; margin:10px 0 0 0; padding:10px 0 0 10px; border:1px solid #CCC; text-align:left; _display:inline; }
+.zhinan span{ font-size:12px; width:140px; height:25px; line-height:25px; display:block; border-bottom:1px solid #dddddd; color:#666666; text-align:left;  } 
+.zhinan ul { display:inline;padding:0 0;margin:0 0;}
+.zhinan ul li {display: block;line-height:22px; text-align:left;background:url(../images/indexlicon1.gif) no-repeat 9px center;font-size:12px; padding:0 0 0 15px;_padding:0 0 0 0;}
+*+html .zhinan ul li{display: block;line-height:22px; text-align:left;background:url(../images/indexlicon1.gif) no-repeat 9px center;font-size:12px; padding:0 0 0 0;}
+/*友情链接*/  
+.friendlink{ float:left; width:978px;  padding:0 0 5px 0; margin:10px 0 0 0;  _display:inline; border:1px solid #b7cce7; background:#f4f8fb; overflow:hidden; }
+.friendlink h2{ float:left; width:956px; margin:0px 0  0 8px; line-height:24px; font-size:12px; color:#33659a; background:url(../images/friendlinkicon.gif) no-repeat 8px center; text-align:left; border-bottom:1px dashed  #b3cbe3;  _display:inline;}
+.friendlink  .linktable{ float:left; width:895px; margin:5px 0 0 20px;  _display:inline; color:#2b67a6;  line-height:26px; }
+.friendlink  .linktable a{color:#33659a; font-size:12px; }
+/*footer*/  
+.footer{ float:left;width:800px; padding-left:150px; height:150px; overflow:hidden; margin:10px 0 0 0; border:#4680c8 solid 1px; background:url(../images/footerbj.gif) repeat-x; position:relative;}
+.footer p{ width:400px; float:left; line-height:20px; text-align:left; color:#fff; margin:20px 0 0 0; _display:inline;}
+.footer p a{ color:#fff;}
+.footer p a:hover{ color:#fff; text-decoration:underline;}
+#huiyifoot{background:url(../images/footerbj3.gif) repeat-x; border:1px solid #ac0303;}
+#xueweifoot{background:url(../images/footerbj2.gif) repeat-x; border:1px solid #ac0303; }
+.footer .beian{ position:absolute; left:70px; top:40px; background:url(../images/beianbgs.png) no-repeat; width:40px; height:48px;}
+.footer .beian2{ position:absolute; top:40px; background:url(../images/beianbgs.png) no-repeat; width:40px; height:48px; right:70px;}
+
+.footer .foottable{ float:left; width:755px; margin:15px 0 0 145px;  text-align:left; line-height:22px; color:#FFF;_display:inline;  } 
+a.grey12:link,a.grey12:visited{ color:#000;text-decoration:none; } 
+a.grey12:hover{ color:#000;text-decoration:underline; }
+a.wirte:link,a.wirte:visited{ color:#FFF;text-decoration:none;}
+a.wirte:hover{color:#FFF; text-decoration:underline;}
+.footer {
+    height: 67px !important;
+    padding-left: 0;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: microsoft Yahei;
+}
+
+.footer-line {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.footer-item {
+    display: inline-block;
+    margin: 0 15px;
+    color: white;
+}
+
+    .footer-item a {
+        color: white;
+    }
+
+        .footer-item a:hover {
+            color: white;
+            cursor: pointer;
+        }
+
+.footer-item2 {
+    display: inline-block;
+    color: white;
+    margin: 0 5px;
+}

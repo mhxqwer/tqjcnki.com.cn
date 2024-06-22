@@ -1,0 +1,44 @@
+﻿.rightxkbook {
+    margin-bottom: 20px;
+}
+
+    .rightxkbook-cover {
+        float: left;
+        width: 70px;
+        height: 100px;
+        box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.05);
+    }
+
+    .rightxkbook-context {
+        float: left;
+        width: 88px;
+        margin-left: 10px;
+    }
+
+.rightxkbook-title {
+    text-align: left;
+    color: #008aff;
+    font-size: 13px;
+    line-height: 18px;
+    max-height: 36px;
+    overflow: hidden;
+}
+
+    .rightxkbook-detail {
+        text-align: left;
+        margin-top: 4px;
+        font-size: 12px;
+        line-height: 22px;
+        height: 66px;
+        overflow: hidden;
+        color: #666;
+    }
+
+.rightxkbook-more {
+    display: block;
+    text-align: center;
+    color: #008aff !important;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    cursor: pointer;
+}
